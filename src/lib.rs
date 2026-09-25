@@ -1,2 +1,2 @@
-mod dir_walker;
-pub use dir_walker::find_files;
+mod files;
+pub use files::{find_files, filter_by_extension};
